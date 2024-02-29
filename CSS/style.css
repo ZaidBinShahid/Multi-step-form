@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Ubuntu';
+}
+
+.container {
+    max-width: 63%;
+    border-radius: 10px;
+}
+
+
+.main-title {
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    color: #022646;
+}
+
+.discription {
+    color: #afb0b4;
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-bottom: 30px; */
+}
+
+img {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.formField {
+    font-size: 16px;
+}
+
+#myForm>input {
+    border: 2px solid #e7e6e9;
+}
+
+.planName {
+    margin-left: 0;
+    color: #2c3f5c;
+}
+
+.monthly-price .yearly-price {
+    color: #b6b7bb;
+    font-size: 18px;
+}
+
+.card-description {
+    color: #022646;
+}
+
+.text-justify {
+    color: grey;
+}
+
+#step1 {
+    margin-bottom: 40px;
+}
+
+#userName,
+#userEmail,
+#mobile {
+    box-shadow: none;
+}
+
+
+#userNameError,
+#emailError,
+#mobileError {
+    color: #1e3156;
+    float: right;
+    margin-top: 12px;
+    font-weight: 500;   
+}
+
+/* STEP NUMBER */
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 15px;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    top: 10%;
+    left: 330px;
+}
+
+li {
+    display: flex;
+}
+
+.stepText {
+    color: hsl(229, 24%, 87%);
+}
+
+.desktop-img {
+    display: block;
+}
+
+.mobile-img {
+    display: none;
+}
+
+/* step3 */
+.addon-cards {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    /* padding-top: 3; */
+}
+
+#item3 {
+    border-radius: 10px;
+}
+
+.addon-paragraph {
+    margin-left: 42px;
+    color: #adadb6;
+}
+
+.card-description {
+    color: grey;
+}
+
+
+/* button section  */
+.button-container {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nextBtn {
+    display: flex;
+    float: right;
+    margin-top: 65px;
+    color: white;
+    background-color: hsl(213, 96%, 18%);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.confirm {
+    display: flex;
+    float: right;
+    margin-top: 65px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.prev-button {
+    margin-top: 80px;
+    background: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #a1a1ab;
+}
+
+/* change plan button */
+.change__plan {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-left: 17px;
+    color: gray;
+}
+
+
+.step2Cards {
+    border: 2px solid #f7f7f7;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-img {
+    width: 40px;
+    /* padding-top: 5px; */
+    margin-bottom: 10px;
+}
+
+.price-toggler {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f7f9fe;
+}
+
+#step3 {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#price_item1,
+#price_item2,
+#price_item3 {
+    margin: 30px 10px 0 0;
+    color: #8a85be;
+}
+
+#inlineCheckbox1,
+#inlineCheckbox2,
+#inlineCheckbox3 {
+    margin: 30px 0 0 0;
+    padding: 8px;
+}
+
+.selected {
+    background-color: #f8f9fe;
+    border: 2px solid #7d78b3;
+}
+
+#total {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+}
+
+#price-yearly {
+    color: grey;
+}
+
+.yearly {
+    font-size: 14px;
+}
+
+.active {
+    background-color: aliceblue;
+    color: black;
+}
+
+#plan-val {
+    /* margin-right: 30px; */
+    font-weight: 500;
+}
+
+#step4Card {
+    border-radius: 10px;
+    background-color: #f8f9fe;
+    border: none;
+    outline: none;
+}
+
+.total {
+    margin-bottom: 100px;
+}
+
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+final-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20%;
+    margin-inline: auto;
+    /* margin-bottom: 50px; */
+}
+
+.last-step {
+    padding-top: 170px;
+    min-height: 100%;
+    text-align: center;
+}
+
+.last__step>.main__title {
+    padding-bottom: 10px;
+}
+
+.last-step>.discription {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.last-text {
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+
+    /* reduce font size for small screen */
+    html {
+        font-size: 60%;
+    }
+
+    .main-title {
+        font-weight: 700;
+        font-size: 20px;
+        font-size: 'Ubuntu';
+    }
+
+    .container {
+        max-width: 300px;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        position: absolute;
+        /* width: 100%; */
+        margin: 0;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        display: block;
+        width: 100%;
+    }
+
+    .cardmobile {
+        margin-top: 30% !important;
+    }
+
+    .circle {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        align-items: center;
+        margin-right: 15px;
+    }
+
+    ul {
+        position: absolute;
+        list-style-type: none;
+        top: 5%;
+        left: 100px;
+    }
+
+    .text>p {
+        display: none;
+    }
+
+    /* step2 media query */
+    .step2Cards {
+        margin-bottom: 5px;
+    }
+
+    .step2Cards {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .card-img {
+        width: 30px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .card-text {
+        margin-left: 5px !important;
+    }
+
+    /* .yearly-benefit,
+    .yearly-price {
+        font-size: 12px;
+    } */
+
+    /* step3 media query */
+    .addon-cards {
+        width: 255px;
+    }
+
+    .addon-paragraph {
+        margin-left: 27px;
+    }
+
+    #inlineCheckbox1,
+    #inlineCheckbox2,
+    #inlineCheckbox3 {
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    #price_item1,
+    #price_item2,
+    #price_item3 {
+        margin-top: 20px;
+    }
+
+    .card-description {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    /* step 4 media query */
+    #total {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .total {
+        margin-left: 10px;
+    }
+
+    #plan-val {
+        margin-right: 10px;
+    }
+
+    .update>span {
+        margin-left: 20px;
+    }
+
+    /* button media query */
+    .button-container {
+        bottom: 0px;
+        right: 0;
+        background-color: white;
+        width: 90%;
+        padding: 15px 10px;
+    }
+
+    .confirm {
+        display: flex;
+        float: right;
+        margin-top: 65px;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .change__plan {
+        border: none;
+        background-color: transparent;
+        text-decoration: underline;
+        margin-left: 8px;
+        color: gray;
+    }
+
+    .nextBtn {
+        margin-bottom: 10px;
+    }
+
+    .total {
+        margin-bottom: 50px;
+    }
+
+    #thank-you {
+        padding: 10px;
+    }
+}
